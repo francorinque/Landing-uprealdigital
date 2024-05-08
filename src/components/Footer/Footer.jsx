@@ -16,7 +16,7 @@ const Footer = () => {
           <CustomLink href={button.href} title={button.title} />
         </CustomButton>
       </nav>
-      <nav className='flex flex-wrap gap-5'>
+      <nav className='flex flex-wrap justify-center gap-5'>
         {menuLinks.map((link) => (
           <CustomLink key={link.id} {...link} />
         ))}
