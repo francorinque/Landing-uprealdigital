@@ -21,7 +21,7 @@ const Testimonial = () => {
   };
 
   return (
-    <section className='py-[100px]'>
+    <section className='py-[100px]' id='testimonials'>
       <Title title={title} subtitle={subtitle} />
       <div className=' mt-10'>
         <TestimonialItem

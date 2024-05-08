@@ -5,7 +5,7 @@ import StatItem from './StatItem';
 const About = () => {
   const { title, subtitle, stats, img } = data['section-six'];
   return (
-    <section className='py-[100px]' id='about'>
+    <section className='py-[100px]' id='about-us'>
       <Title title={title} subtitle={subtitle} />
       <div
         className='bg-custom-neutral text-custom-white rounded-md p-4 mt-10

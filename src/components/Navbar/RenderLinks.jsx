@@ -1,4 +1,5 @@
 import data from '../../data.json';
+import CustomLink from '../ui/CustomLink';
 
 const RenderLinks = () => {
   const { menuLinks } = data['section-nav'];
@@ -7,9 +8,7 @@ const RenderLinks = () => {
     <>
       {menuLinks.map((link) => (
         <li key={link.id}>
-          <a href={link.href} className='hover:text-custom-yellow'>
-            {link.title}
-          </a>
+          <CustomLink {...link} />
         </li>
       ))}
     </>

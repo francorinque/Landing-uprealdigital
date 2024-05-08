@@ -10,6 +10,7 @@
   padding: 0;
 }
 
+html,
 body {
   @apply bg-custom-white min-h-screen text-custom-neutral;
 }

@@ -8,27 +8,39 @@
     "menuLinks": [
       {
         "id": 0,
-        "href": "home",
+        "href": "#home",
         "title": "Home",
         "isExternal": false
       },
       {
         "id": 1,
-        "href": "about-us",
+        "href": "#about-us",
         "title": "About us",
         "isExternal": false
       },
       {
         "id": 2,
-        "href": "partners",
-        "title": "Partners",
+        "href": "#projects",
+        "title": "Projects",
         "isExternal": false
       },
       {
         "id": 3,
-        "href": "career",
-        "title": "Career",
+        "href": "#find-us",
+        "title": "Find Us",
         "isExternal": false
+      },
+      {
+        "id": 4,
+        "href": "#testimonials",
+        "title": "Testimonials",
+        "isExternal": false
+      },
+      {
+        "id": 5,
+        "href": "blogexample",
+        "title": "Blog",
+        "isExternal": true
       }
     ],
     "button": {
@@ -207,5 +219,13 @@
         }
       }
     ]
+  },
+  "section-footer": {
+    "text": "Have something to talk about ?",
+    "button": {
+      "text": "Contact",
+      "title": "Contact",
+      "href": "mailto:O2sEe@example.com"
+    }
   }
 }

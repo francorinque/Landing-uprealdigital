@@ -5,7 +5,7 @@ import FindUsItem from './FindUsItem';
 const FindUs = () => {
   const { title, subtitle, img, items } = data['section-seven'];
   return (
-    <section className='py-[100px]'>
+    <section className='py-[100px]' id='find-us'>
       <Title title={title} subtitle={subtitle} />
       <div
         className='mt-10 grid grid-cols-1 md:grid-cols-2 gap-4 items-center
