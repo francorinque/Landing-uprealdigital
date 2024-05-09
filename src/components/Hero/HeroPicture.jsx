@@ -9,7 +9,7 @@ const HeroPicture = () => {
         src={img.url}
         alt={img.alt}
         title={img.title}
-        className='w-full object-cover rounded-md max-h-[300px]'
+        className='w-full object-cover rounded-md max-h-[300px] aspect-square'
       />
       <div className='py-5 text-center'>
         <h3 className='text-[20px]'>{captionImg}</h3>

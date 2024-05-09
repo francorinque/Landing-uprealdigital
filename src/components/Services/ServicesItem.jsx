@@ -1,7 +1,7 @@
 const ServicesItem = ({ text, icon }) => {
   return (
     <div
-      className='bg-custom-neutral text-custom-white rounded-md p-4
+      className='bg-custom-neutral text-custom-white rounded-md p-2 h-[200px] grid place-content-center
     text-center w-full
     '
     >
